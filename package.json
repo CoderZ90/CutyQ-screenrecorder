@@ -1,0 +1,17 @@
+{
+  "name": "yt-js-screen-recorder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "live-server . --no-css-inject",
+    "css": "tailwindcss -i src/tailwind.css -o dist/main.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "description": "",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "tailwindcss": "^2.2.16"
+  }
+}
